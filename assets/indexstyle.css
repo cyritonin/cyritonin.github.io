@@ -1,0 +1,109 @@
+/*Header Formatting*/
+h1 {
+	text-align: center;
+	font-size: 70px;
+	color: green;
+	font-family: "Press Start 2P", "Segoe UI",sans-serif;
+	padding: 32px;
+}
+
+h2 {
+	font-family: "Press Start 2P", "Segoe UI", sans-serif;
+	font-size: 32px;
+	color: orange;
+	text-align: center;
+}
+
+/*Page background color*/
+body {
+	background-color: #161616;
+}
+
+/*Text formatting*/
+p {
+	text-align: left;
+	font-size: 24px;
+	font-family: "Press Start 2P", "Baskerville", "Times New Roman", sans-serif;
+	color: #F7F7F7;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+em {
+	color: green;
+	font-size: 24px;
+	font-family: "Press Start 2P", "Baskerville", "Times New Roman", sans-serif;
+	font-style: normal;
+}
+
+section{
+	background-color: #161616;
+}
+
+/*List formatting*/
+ul {
+	list-style-type: disc;
+	text-align: left;
+	font-size: 24px;
+	padding: 50px;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+li {
+	font-family: "Press Start 2P", "Segoe UI", sans-serif;
+	color: #F7F7F7;
+}
+
+/*Link formatting*/
+nav {
+	text-align: center;
+	padding: 50px;
+}
+
+a:link, a:visited {
+	color: orange;
+	font-size: 24px;
+	font-family: "Press Start 2P", "Segoe UI", sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
+/*Column formatting*/
+
+.column {
+	float: left;
+	width: 33.33%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*Home Page Image Formatting*/
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+	border: 5px solid green;
+}
+
+/*Form Formatting*/
+
+form {
+	font-family: "Press Start 2P", "Segoe UI", sans-serif;
+	font-size: 16px;
+	color: #F7F7F7;
+	border: 3px solid orange;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 25%;
+}
